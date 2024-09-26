@@ -9,7 +9,7 @@ function Footer() {
             <div className="mb-6 md:mb-0">
                 <Link to="/" className="flex items-center">
                     <img
-                        src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                        src="/logo4.png"
                         className="mr-3 h-16"
                         alt="Logo"
                     />
@@ -24,11 +24,17 @@ function Footer() {
                                 Home
                             </Link>
                         </li>
-                        <li>
+                        <li className="mb-4">
                             <Link to="/about" className="hover:underline">
                                 About
                             </Link>
                         </li>
+                        <li className="mb-4">
+                            <Link to="/contact" className="hover:underline">
+                                Contact
+                            </Link>
+                        </li>
+                        
                     </ul>
                 </div>
                 <div>
@@ -44,9 +50,14 @@ function Footer() {
                                 Github
                             </a>
                         </li>
+                        <li className="mb-4">
+                            <Link to="/" className="hover:underline">
+                                Facebook
+                            </Link>
+                        </li>
                         <li>
                             <Link to="/" className="hover:underline">
-                                Discord
+                                Instagram
                             </Link>
                         </li>
                     </ul>
@@ -73,7 +84,7 @@ function Footer() {
             <span className="text-sm text-gray-500 sm:text-center">
                 © 2023
                 <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                    hiteshchoudhary
+                    misbahurrehman
                 </a>
                 . All Rights Reserved.
             </span>
