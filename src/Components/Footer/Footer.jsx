@@ -20,17 +20,17 @@ function Footer() {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                     <ul className="text-gray-500 font-medium">
                         <li className="mb-4">
-                            <Link to="/" className="hover:underline">
+                            <Link to="/" className="hover:underline hover:text-cyan-600">
                                 Home
                             </Link>
                         </li>
                         <li className="mb-4">
-                            <Link to="/about" className="hover:underline">
+                            <Link to="/about" className="hover:underline hover:text-cyan-600">
                                 About
                             </Link>
                         </li>
                         <li className="mb-4">
-                            <Link to="/contact" className="hover:underline">
+                            <Link to="/contact" className="hover:underline hover:text-cyan-600">
                                 Contact
                             </Link>
                         </li>
@@ -43,7 +43,7 @@ function Footer() {
                         <li className="mb-4">
                             <a
                                 href="https://github.com/hiteshchoudhary"
-                                className="hover:underline"
+                                className="hover:underline hover:text-cyan-500"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -51,12 +51,12 @@ function Footer() {
                             </a>
                         </li>
                         <li className="mb-4">
-                            <Link to="/" className="hover:underline">
+                            <Link to="/" className="hover:underline hover:text-cyan-500">
                                 Facebook
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" className="hover:underline">
+                            <Link to="/" className="hover:underline hover:text-cyan-500">
                                 Instagram
                             </Link>
                         </li>
@@ -66,12 +66,17 @@ function Footer() {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                     <ul className="text-gray-500 font-medium">
                         <li className="mb-4">
-                            <Link to="#" className="hover:underline">
+                            <Link to="#" className="hover:underline hover:text-cyan-600">
+                                Certifications
+                            </Link>
+                        </li>
+                        <li className="mb-4">
+                            <Link to="#" className="hover:underline hover:text-cyan-600">
                                 Privacy Policy
                             </Link>
                         </li>
                         <li>
-                            <Link to="#" className="hover:underline">
+                            <Link to="#" className="hover:underline hover:text-cyan-600">
                                 Terms &amp; Conditions
                             </Link>
                         </li>
@@ -91,7 +96,7 @@ function Footer() {
             <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                 <Link to="#" className="text-gray-500 hover:text-gray-900">
                     <svg
-                        className="w-4 h-4"
+                        className="w-4 h-4 hover:text-cyan-500"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -107,7 +112,7 @@ function Footer() {
                 </Link>
                 <Link to="#" className="text-gray-500">
                     <svg
-                        className="w-4 h-4"
+                        className="w-4 h-4 hover:text-cyan-500"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -119,7 +124,7 @@ function Footer() {
                 </Link>
                 <Link to="#" className="text-gray-500">
                     <svg
-                        className="w-4 h-4"
+                        className="w-4 h-4 hover:text-cyan-500"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -135,7 +140,7 @@ function Footer() {
                 </Link>
                 <Link to="#" className="text-gray-500">
                     <svg
-                        className="w-4 h-4"
+                        className="w-4 h-4 hover:text-cyan-500"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -151,7 +156,7 @@ function Footer() {
                 </Link>
                 <Link to="#" className="text-gray-500">
                     <svg
-                        className="w-4 h-4"
+                        className="w-4 h-4 hover:text-cyan-500"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
