@@ -9,6 +9,7 @@ import Contact from './Components/Contact/Contact'
 import User from './Components/User/User'
 import Github from './Components/Github/Github'
 import Portfolio from './Components/Portfolio/Portfolio'
+import Certification from './Components/Certification/Certification'
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:'portfolio',
         element:<Portfolio/>
+      },
+      {
+        path:'certification',
+        element:<Certification/>
       }
     ]
   }

@@ -42,7 +42,7 @@ function Footer() {
                     <ul className="text-gray-500 font-medium">
                         <li className="mb-4">
                             <a
-                                href="https://github.com/hiteshchoudhary"
+                                href="https://github.com/misbahprogrammer"
                                 className="hover:underline hover:text-cyan-500"
                                 target="_blank"
                                 rel="noreferrer"
@@ -66,7 +66,7 @@ function Footer() {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                     <ul className="text-gray-500 font-medium">
                         <li className="mb-4">
-                            <Link to="#" className="hover:underline hover:text-cyan-600">
+                            <Link to="/certification" className="hover:underline hover:text-cyan-600">
                                 Certifications
                             </Link>
                         </li>
