@@ -10,6 +10,7 @@ import User from './Components/User/User'
 import Github from './Components/Github/Github'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Certification from './Components/Certification/Certification'
+import Privacy from './Components/Privacy/Privacy'
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path:'certification',
         element:<Certification/>
+      },
+      {
+        path:'privacy',
+        element:<Privacy/>
       }
     ]
   }
