@@ -11,6 +11,7 @@ import Github from './Components/Github/Github'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Certification from './Components/Certification/Certification'
 import Privacy from './Components/Privacy/Privacy'
+import Quote from './Components/Quotation/Quote'
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,9 @@ const router = createBrowserRouter([
       {
         path:'privacy',
         element:<Privacy/>
+      },{
+        path:'quote',
+        element:<Quote/>
       }
     ]
   }

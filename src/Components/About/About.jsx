@@ -6,6 +6,7 @@ function About() {
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center md:justify-center lg:gap-12">
                 <div class="flex-1 p-4 md:w-3/5">
+                <div className='md:w-full'><img src="about.png" alt="" className='w-[20vw] mx-auto'/></div>
                 <p class="mb-10 md:max-w-4xl  mx-auto text-2xl font-mono">I am  a Frontend Developer  with over a year  of professional expertise in the field.Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
 
                 <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
