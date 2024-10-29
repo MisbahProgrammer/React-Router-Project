@@ -6,10 +6,10 @@ function Home() {
     <div className="mx-auto w-full max-w-7xl">
     <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
         <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-            <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
-                <h2 className="text-4xl font-bold sm:text-5xl">
+            <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto relative">
+                <h2 className="text-3xl w-full font-bold md:text-5xl md:mt-0 bg-orange-400 md:bg-transparent relative rounded-lg">
                     Frontend Developer
-                    <span className="hidden sm:block text-4xl">Misbah ur Rehman</span>
+                    <span className="text-2xl block md:text-4xl">Misbah ur Rehman</span>
                 </h2>
 
                 <Link
@@ -45,7 +45,7 @@ function Home() {
         <h4 class="text-center text-2xl mb-2">What i offer</h4>
         <h2 class="text-center text-5xl font-semibold ">My Services</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 text-xl">I am a Frontend Developer from Pakistan, with over a year of experience in a startup and on freelancing platforms like Guru,Freelancer,People per hour. </p>
-        <div class="grid grid-cols-3  gap-6 my-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 flex-wrap  gap-6 my-10">
             <div class=" flex flex-col items-center justify-center border border-gray-400 rounded-lg  px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
                 <img src="webdev.png" alt="" className='w-60'/>
                 <h3 class="font-semibold text-xl">Web Development</h3>
