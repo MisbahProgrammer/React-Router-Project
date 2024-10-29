@@ -12,7 +12,8 @@ function Portfolio() {
                 
                 </div>
                 <div className='w-[80%] border rounded-lg p-4 cursor-pointer'>
-                    <img src="p2.jpg" alt="" className='w-full' />
+                    <img src="coffee-project.png" alt="" className='w-full' />
+                    <img src="coffee-project2.png" alt="" className='w-full' />
                 
                 </div>
                 <div className='w-[80%] border rounded-lg p-4 cursor-pointer'>
@@ -35,11 +36,11 @@ function Portfolio() {
                 
                 </div>
                 <div className='w-[80%] border rounded-lg p-4 cursor-pointer'>
-                    <img src="bg4.jfif" alt="" className='w-full' />
+                    <img src="m4ktraders.png" alt="" className='w-full' />
                 
                 </div>
                 <div className='w-[80%] border rounded-lg p-4 cursor-pointer'>
-                    <img src="Components.png" alt="" className='w-full' />
+                    <img src="global.png" alt="" className='w-full' />
                 
                 </div>
             </div>
