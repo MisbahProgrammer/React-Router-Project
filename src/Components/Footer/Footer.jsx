@@ -76,7 +76,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="#" className="hover:underline hover:text-cyan-600">
+                            <Link to="terms" className="hover:underline hover:text-cyan-600">
                                 Terms &amp; Conditions
                             </Link>
                         </li>

@@ -12,6 +12,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import Certification from './Components/Certification/Certification'
 import Privacy from './Components/Privacy/Privacy'
 import Quote from './Components/Quotation/Quote'
+import Terms from './Components/Terms/Terms'
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       },{
         path:'quote',
         element:<Quote/>
+      },
+      {
+        path:'terms',
+        element:<Terms/>
       }
     ]
   }
