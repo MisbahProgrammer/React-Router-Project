@@ -13,6 +13,7 @@ import Certification from './Components/Certification/Certification'
 import Privacy from './Components/Privacy/Privacy'
 import Quote from './Components/Quotation/Quote'
 import Terms from './Components/Terms/Terms'
+import Services from './Components/Services/Services'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path:'about',
         element:<About/>
+      },
+      {
+        path:'services',
+        element: <Services/>
       },
       {
         path:'contact',

@@ -46,21 +46,21 @@ function Home() {
         <h2 class="text-center text-5xl font-semibold ">My Services</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 text-xl">I am a Frontend Developer from Pakistan, with over a year of experience in a startup and on freelancing platforms like Guru,Freelancer,People per hour. </p>
         <div class="grid grid-cols-1 md:grid-cols-3 flex-wrap  gap-6 my-10">
-            <div class=" flex flex-col items-center justify-center border border-gray-400 rounded-lg  px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
-                <img src="webdev.png" alt="" className='w-60'/>
+            <div class=" flex flex-col items-center justify-center border border-gray-400 rounded-lg  px-8 py-5 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
+                <img src="webdev.png" alt="" className='w-52'/>
                 <h3 class="font-semibold text-xl">Web Development</h3>
                 <p>Create custom websites from scratch or redesign existing ones.</p>
                 <a href="" class="flex items-center align-middle gap-2 text-xl mt-4 text-cyan-700">Read more <i class="fa-solid fa-arrow-right w-4 pt-1 "></i></a>
             </div>
             <div class="flex flex-col items-center justify-center border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
-                <img src="wordpress.png" alt="" className='w-60'/>
+                <img src="wordpress.png" alt="" className='w-52'/>
                 <h3 class="font-semibold text-xl">Wordpress Development</h3>
                 <p>Creating and customizing WordPress websites using themes, plugins, and custom code.</p>
                 <a href="" class="flex items-center align-middle gap-2 text-xl mt-4 text-cyan-700">Read more <i class="fa-solid fa-arrow-right w-4 pt-1 "></i></a>
             </div>
            
             <div class="flex flex-col items-center justify-center border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
-                <img src="code-audit.png" alt=""  className='w-60'/>
+                <img src="code-audit.png" alt=""  className='w-52'/>
                 <h3 class="font-semibold text-xl">Frontend Code Audit</h3>
                 <p>Review and analyze existing frontend code to identify areas for improvement and optimization.</p>
                 <a href="" class="flex items-center align-middle gap-2 text-xl mt-4 text-cyan-700">Read more <i class="fa-solid fa-arrow-right w-4 pt-1 "></i></a>

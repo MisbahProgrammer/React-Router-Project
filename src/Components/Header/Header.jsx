@@ -64,6 +64,16 @@ function Header() {
                             </li>
                             <li>
                                 <NavLink
+                                to='/services'
+                                    className={({isActive}) =>
+                                        `${isActive ? "text-cyan-500" : "text-gray-700"} block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-cyan-600 lg:p-0`
+                                    }
+                                >
+                                    Services
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
                                 to='/github'
                                     className={({isActive}) =>
                                         `${isActive ? "text-cyan-500" : "text-gray-700"} block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-cyan-600 lg:p-0`
