@@ -60,9 +60,14 @@ function Footer() {
                                 Facebook
                             </Link>
                         </li>
-                        <li>
+                        <li className='mb-4'>
                             <Link to="/" className="hover:underline hover:text-cyan-500">
                                 Instagram
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/" className="hover:underline hover:text-cyan-500">
+                                Youtube
                             </Link>
                         </li>
                     </ul>
@@ -80,9 +85,14 @@ function Footer() {
                                 Privacy Policy
                             </Link>
                         </li>
-                        <li>
+                        <li className='mb-4'>
                             <Link to="terms" className="hover:underline hover:text-cyan-600">
                                 Terms &amp; Conditions
+                            </Link>
+                        </li>
+                        <li >
+                            <Link to="disclaimer" className="hover:underline hover:text-cyan-600">
+                                Disclaimer
                             </Link>
                         </li>
                     </ul>

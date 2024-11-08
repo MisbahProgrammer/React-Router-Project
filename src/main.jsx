@@ -14,6 +14,7 @@ import Privacy from './Components/Privacy/Privacy'
 import Quote from './Components/Quotation/Quote'
 import Terms from './Components/Terms/Terms'
 import Services from './Components/Services/Services'
+import Disclaimer from './Components/Disclaimer/Disclaimer'
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path:'terms',
         element:<Terms/>
+      },
+      {
+        path:'disclaimer',
+        element: <Disclaimer/>
       }
     ]
   }
